@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <!--Button to open the image selector-->
+
+    <!-- add Camera Button to open the Camera-->
+
+    <!-- add Save Button to save image to gallery-->
+
+    <!--ImageView to preview the selected image-->
+
+    <ImageButton
+        android:id="@+id/camera_button"
+        android:layout_width="71dp"
+        android:layout_height="67dp"
+        android:layout_marginStart="8dp"
+        android:backgroundTint="@android:color/holo_blue_dark"
+        app:layout_constraintBottom_toBottomOf="@+id/BSelectImage"
+        app:layout_constraintEnd_toStartOf="@+id/savegallery"
+        app:layout_constraintHorizontal_bias="0.318"
+        app:layout_constraintStart_toEndOf="@+id/BSelectImage"
+        app:layout_constraintTop_toTopOf="@+id/BSelectImage"
+        app:layout_constraintVertical_bias="0.0"
+        app:srcCompat="@android:drawable/ic_menu_camera"
+        tools:ignore="MissingConstraints" />
+
+    <ImageButton
+        android:id="@+id/BSelectImage"
+        android:layout_width="71dp"
+        android:layout_height="67dp"
+        android:layout_marginStart="84dp"
+        android:backgroundTint="@android:color/holo_purple"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/IVPreviewImage"
+        app:layout_constraintVertical_bias="0.384"
+        app:srcCompat="@android:drawable/stat_sys_upload"
+        tools:ignore="MissingConstraints" />
+
+    <ImageButton
+        android:id="@+id/savegallery"
+        android:layout_width="71dp"
+        android:layout_height="67dp"
+        android:layout_marginEnd="84dp"
+        android:backgroundTint="@android:color/holo_green_dark"
+        app:layout_constraintBottom_toBottomOf="@+id/camera_button"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toTopOf="@+id/camera_button"
+        app:layout_constraintVertical_bias="0.0"
+        app:srcCompat="@android:drawable/ic_menu_save"
+        tools:ignore="MissingConstraints" />
+
+    <ImageView
+        android:id="@+id/IVPreviewImage"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:layout_below="@id/BSelectImage"
+        android:background="#aaaaaa"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHeight_percent="0.5"
+        app:layout_constraintHorizontal_bias="0.497"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.402"
+        app:layout_constraintWidth_percent="0.5"
+        app:srcCompat="@android:drawable/ic_menu_gallery" />
+
+    <Button
+        android:id="@+id/convert_button"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Convert"
+        app:layout_constraintBottom_toTopOf="@+id/IVPreviewImage"
+        app:layout_constraintTop_toTopOf="parent"
+        tools:layout_editor_absoluteX="155dp"
+        tools:ignore="MissingConstraints" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>
