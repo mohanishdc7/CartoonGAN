@@ -1,10 +1,16 @@
-# Toonist
-Android Application
+# CartoonGAN
 
-### Android Development
-- Added the feature to access camera in order to scan image for displaying to the app
-- Added the feature to select image from gallery/storage for displaying to the app
-- Incorporating the conversion algorithm integration with the android application
-- Added the feature to save/download image after the desired output is obtained
+<img src="test_images/rihanna.jpg" width="500px"/><img src="cartoonized_images/rihanna.jpg" width="500px"/><br>
+<img src="test_images/jim.jpg" width="500px"/><img src="cartoonized_images/jim.jpg" width="500px"/><br>
+<img src="test_images/megan.jpg" width="500px"/><img src="cartoonized_images/megan.jpg" width="500px"/><br>
+<img src="test_images/harry.jpg" width="500px"/><img src="cartoonized_images/harry.jpg" width="500px"/><br>
+<img src="test_images/emma.jpg" width="500px"/><img src="cartoonized_images/emma.jpg" width="500px"/><br>
+<img src="test_images/ben.jpg" width="500px"/><img src="cartoonized_images/ben.jpg" width="500px"/><br>
+<img src="test_images/tp.jpg" width="500px"/><img src="cartoonized_images/tp.jpg" width="500px"/><br>
+<img src="test_images/nusrt.jpg" width="500px"/><img src="cartoonized_images/nusrt.jpg" width="500px"/><br>
+<img src="test_images/tiramisu.jpg" width="500px"/><img src="cartoonized_images/tiramisu.jpg" width="500px"/><br>
+<img src="test_images/city.jpg" width="500px"/><img src="cartoonized_images/city.jpg" width="500px"/><br>
+<img src="test_images/rome.jpg" width="500px"/><img src="cartoonized_images/rome.jpg" width="500px"/><br>
+<img src="test_images/sanf.jpg" width="500px"/><img src="cartoonized_images/sanf.jpg" width="500px"/><br>
 
-### Deep Learning
+
