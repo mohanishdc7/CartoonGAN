@@ -1,6 +1,6 @@
 # CartoonGAN
 
-<img src="Python/test_images/rihanna.jpg" width="500px"/><img src="Python/cartoonized_images/rihanna.jpg" width="500px"/><br>
+<img src="Python/test_images/rihanna.jpg" width="400px"/><img src="Python/cartoonized_images/rihanna.jpg" width="400px"/><br>
 <img src="Python/test_images/jim.jpg" width="500px"/><img src="Python/cartoonized_images/jim.jpg" width="500px"/><br>
 <img src="Python/test_images/megan.jpg" width="500px"/><img src="Python/cartoonized_images/megan.jpg" width="500px"/><br>
 <img src="Python/test_images/harry.jpg" width="500px"/><img src="Python/cartoonized_images/harry.jpg" width="500px"/><br>
